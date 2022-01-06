@@ -1,3 +1,4 @@
+  
 body{
     margin: 0;
 }
@@ -277,6 +278,7 @@ input, textarea:focus{
 .footer{
     background-color: #0B0D17;
     padding-bottom: 45px;
+
 }
 
 footer h1{
@@ -326,6 +328,10 @@ footer p{
         font-size: 30px;
         padding-left: 20px;
         margin-top: 0;
+    }
+
+    .top-left-text p{
+        text-align: justify;
     }
 
     .top-left-button{
@@ -384,6 +390,10 @@ footer p{
     .mern-right h3{
         font-size: 30px;
         text-align: center;
+    }
+
+    .mern-right p{
+        text-align: justify;
     }
 
     .mern-button{
