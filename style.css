@@ -439,6 +439,10 @@ footer p{
         border-radius: 20px;
     }
 
+    button{
+        margin-left: 10%;
+    }
+
     .contact-section h1{
         font-size: 30px;
         text-align: center;
