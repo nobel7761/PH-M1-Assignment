@@ -1,0 +1,446 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.orange-text{
+    color: #FFAD5A;
+}
+
+.half-width{
+    width: 50%;
+}
+
+.btn{
+    background-color: #FF5959;
+}
+
+.top{
+    display: flex;
+    width: 100%;
+    margin-top: 60px; 
+}
+
+.top-left{
+    margin-top: 100px;
+}
+
+.top-left-title-box{
+    display: flex;
+}
+
+.top-left-title h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+.vl{
+    border-left: 4px solid #FF5959;
+    border-radius: 5px;
+    height: 155px;
+    margin-top: 3px;
+}
+
+.top-left-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.top-left-button{
+    width: 150px;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.top-left p{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.top-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-right img{
+    margin-top: -80px;
+    height: 623px;
+}
+
+.mission{
+    margin-bottom: 85px;
+}
+
+.mission h1,h3, p{
+    font-family: 'Poppins', sans-serif;
+    color: #13103A;
+}
+
+.mission h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 26%;
+    border-radius: 25px;
+    padding: 25px 32px 45px 32px;
+}
+
+.card img{
+    height: 141px;
+    width: 141px;
+}
+
+.card h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.card p{
+    text-align: justify;
+}
+
+.mission-bg{
+    background-color: rgba(79,157,166,0.1);
+}
+
+.vission-bg{
+    background: rgba(255, 89, 89, 0.1)
+}
+
+.goals-bg{
+    background-color: #FFF4D6;;
+}
+
+.mern{
+    margin-bottom: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mern-left{
+    width: 35%;
+}
+
+.mern-left img{
+    height: 400px;
+    width: 100%;
+}
+
+.mern-right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.mern-right h3{
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.mern-button{
+    width: 243px;
+    border-radius: 5px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+.projects{
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-left{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+
+
+.projects-right{
+    width: 35%;
+    
+}
+
+.projects-right img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.projects-left h3{
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.projects-button{
+    width: 243px;
+    border-radius: 5px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.contact-section h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    color: #000000
+}
+
+.contact-section{
+    margin-bottom: 80px;
+}
+
+.contact{
+    display: flex;
+}
+
+iframe{
+    border-radius: 20px;
+}
+.contact-right{
+    padding: 20px;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input, textarea{
+    border: 0;
+    border-bottom: 2px solid gray;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 20px;
+}
+
+input, textarea:focus{
+    outline: 0;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+.login{
+    width: 243px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login:hover{
+    background-color: black;
+    color: white;
+}
+
+.footer{
+    background-color: #0B0D17;
+    padding-bottom: 45px;
+}
+
+footer h1{
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    padding: 40px 0 24px;
+    margin: 0;
+}
+
+.red-text{
+    color: rgba(255, 89, 89, 1);
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+@media screen and (max-width: 760px) {
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .half-width{
+        width: 100%;
+    }
+
+    .top{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .top-left{
+        margin-top: 0px;
+    }
+
+    .top-left-title h1{
+        font-family: 'Yeseva One', cursive;
+        font-size: 30px;
+        padding-left: 20px;
+        margin-top: 0;
+    }
+
+    .top-left-button{
+        width: 150px;
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 5px;
+        margin-left: 25%;
+    }
+
+    .top-right img{
+        margin-top: 2%;
+        width: 80%;
+        height: 60%;
+    }
+
+    .mission{
+        margin-top: -70px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .mission h1{
+        font-size: 30px;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        width: 80%;
+        border-radius: 25px;
+        padding: 25px 32px 45px 32px;
+        margin-bottom: 5%;
+    }
+
+    .mern{
+        margin-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .mern-left{
+        width: 100%;
+    }
+
+    .mern-right{
+        margin-top: -50px;
+        width: 100%;
+    }
+
+    .mern-right h3{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .mern-button{
+        margin-left: 10%;
+    }
+
+    .projects{
+        margin-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .projects-left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .projects h3{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .projects p{
+        text-align: justify;
+    }
+
+    .projects-button{
+        margin-left: 10%;
+    }
+
+
+    .projects-right{
+        width: 100%;
+        margin-top: 30px;
+        
+    }
+    
+    .projects-right img{
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .contact-section h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+
+    iframe{
+        width: 100%;
+    }
+    
+  }
